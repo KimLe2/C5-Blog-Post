@@ -20,7 +20,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #eee;
+        background-color: #f6f3f3;
         padding: 0 1.5rem;
     }
     
@@ -31,9 +31,9 @@
     .container h2 {
         letter-spacing: 1px;
         font-size: 50px;
-        color: #6968aa;
-        border: 2px dashed #0181a0;
-        padding: 10px;
+        color: #e6813d;
+        border: 2px dashed hsl(24, 56%, 18%);
+        padding: 20px;
         text-transform: uppercase;
         border-radius: 10px;
         display: inline-block;
@@ -94,7 +94,7 @@
         font-size: 2.5rem;
         margin: 1.5rem 0 2rem;
         text-transform: uppercase;
-        color: #4facfe;
+        color: #94561dcc;
     }
     
     .blog-post_text {
@@ -112,11 +112,11 @@
         color: #fff;
         text-decoration: none;
         border-radius: .8rem;
-        background: linear-gradient(to right, #c945cf 0%, #04a6bd 100%);
+        background: linear-gradient(to right, #94561dcc 0%, #e6813d 100%);
     }
     
     .blog-post_cta:hover {
-        background: linear-gradient(to right, #04a6bd 0%, #c945cf 100%);
+        background: linear-gradient(to right, #e6813d 0%, #94561dcc 100%);
     }
     
     @media screen and (max-width: 1068px) {
